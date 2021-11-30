@@ -1,0 +1,198 @@
+body{
+  background: rgb(255, 243, 245);
+}
+.nopad {
+  padding: 0;
+}
+
+.App
+{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://source.unsplash.com/WLUHO9A_xik/1600x900");
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+
+.button {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px 50px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: navy;
+  color: white;
+  border: 2px solid black ;
+  float: right;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+
+
+.card {
+  transition: all 0.3s ease-in-out;
+  width: 450px;
+  background-color: paleturquoise;
+  color: black;
+  margin: 10px 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border: 7px double navy;
+}
+
+.card:hover {
+  background-color: palevioletred;
+  color: white;
+  cursor: pointer;
+  border: 3px solid mediumvioletred;
+  box-shadow: 0 5px 10px 0 pink ;
+  width: 75%;
+}
+
+.row img {
+  border-radius: 50%;
+}
+
+.container {
+  padding: 20px 40px;
+  font-size: 17px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .Navbar .brand {
+      font-size: 20px;
+  }
+  .container {
+      padding: 2px 16px;
+      font-size: 18px;
+  }
+  .email {
+      font-size: 12px;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+  word-break: break-all
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .col-s-1 {
+      width: 8.33%;
+  }
+  .col-s-2 {
+      width: 16.66%;
+  }
+  .col-s-3 {
+      width: 25%;
+  }
+  .col-s-4 {
+      width: 33.33%;
+  }
+  .col-s-5 {
+      width: 41.66%;
+  }
+  .col-s-6 {
+      width: 50%;
+  }
+  .col-s-7 {
+      width: 58.33%;
+  }
+  .col-s-8 {
+      width: 66.66%;
+  }
+  .col-s-9 {
+      width: 75%;
+  }
+  .col-s-10 {
+      width: 83.33%;
+  }
+  .col-s-11 {
+      width: 91.66%;
+  }
+  .col-s-12 {
+      width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
